@@ -51,3 +51,11 @@ install -m0644 %{inifile} %{buildroot}%{_sysconfdir}/php.d/%{inifile}
 %files
 %config(noreplace) %attr(0644,root,root) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/%{soname}
+
+
+%changelog
+* Mon Jun 04 2012 Oden Eriksson <oeriksson@mandriva.com> 0.9.3-1
++ Revision: 802285
+- initial Mandriva package
+- Created package structure for php-varnish.
+
