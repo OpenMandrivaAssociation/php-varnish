@@ -6,7 +6,7 @@
 Summary:	Varnish Cache bindings for PHP
 Name:		php-%{modname}
 Version:	0.9.3
-Release:	1
+Release:	2
 Group:		Development/PHP
 License:	Apache License
 URL:		http://pecl.php.net/package/varnish/
