@@ -9,7 +9,7 @@ Version:	0.9.3
 Release:	2
 Group:		Development/PHP
 License:	Apache License
-URL:		http://pecl.php.net/package/varnish/
+URL:		https://pecl.php.net/package/varnish/
 Source0:	http://pecl.php.net/get/varnish-%{version}.tgz
 Source1:	B23_varnish.ini
 BuildRequires:	php-devel >= 3:5.2.0
